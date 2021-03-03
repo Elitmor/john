@@ -1,0 +1,35 @@
+{
+	"name": "start-gulp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"stylelint": "stylelint app/scss/**/*.scss"
+	},
+	"author": "Elitmor",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.26.14",
+		"cssmin": "^0.4.3",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-concat": "^2.6.1",
+		"gulp-cssmin": "^0.2.0",
+		"gulp-ejs": "^5.1.0",
+		"gulp-file-include": "^2.3.0",
+		"gulp-html-beautify": "^1.0.1",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-uglify": "^3.0.2",
+		"stylelint": "^13.9.0",
+		"stylelint-config-recommended": "^3.0.0",
+		"stylelint-declaration-block-no-ignored-properties": "^2.3.0",
+		"stylelint-order": "^4.1.0",
+		"stylelint-scss": "^3.18.0"
+	},
+	"dependencies": {
+		"bourbon-neat": "^4.0.0",
+		"normalize.css": "^8.0.1"
+	}
+}
